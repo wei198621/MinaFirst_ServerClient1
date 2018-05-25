@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri May 25 15:45:52 CST 2018
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=false
+onejar.checkbox=true
+jarname=MinaServerV1_fat.jar
+manifest.mergeall=false
+manifest.mainclass=com.leo.Mina.MinaTimeServer.Main
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

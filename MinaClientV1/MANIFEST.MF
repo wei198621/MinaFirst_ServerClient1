@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: ./lib/dom4j-1.6.1.jar ./lib/logback-classic-1.0.7.jar ./lib/logback-core-1.0.7.jar ./lib/mina-core-2.0.7.jar ./lib/slf4j-api-1.7.2.jar
+Main-Class: com.leo.Mina.MinaTimeClient.Main
+Created-By: Fat Jar Eclipse Plug-In

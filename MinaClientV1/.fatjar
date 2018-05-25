@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri May 25 15:51:17 CST 2018
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=true
+jarname=MinaClientV1_fat.jar
+manifest.mergeall=true
+manifest.mainclass=com.leo.Mina.MinaTimeClient.Main
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=
