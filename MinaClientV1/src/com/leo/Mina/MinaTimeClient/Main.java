@@ -84,30 +84,31 @@ public class Main {
 		
 		public void sessionOpened(IoSession session)
 		{
-			for (int i=0 ;i< iTotal;i++)
+
+			session.write(" current persent is 1/1:");
+			
+			/*for (int i=0 ;i< iTotal;i++)
 			{
 			session.write(" current persent is :"+i+"/"+iTotal);
-			//	session.write(i);
-			//count++;
 			logger.info("第 " + i + " 个 登陆address：: " + session.getRemoteAddress());
 			logger.info("******************************************");
+			*/
 			/*try {
 				Thread.sleep(2000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}*/
 		    
-			}
+			//}
 		}
 		
 		public void messageReceived(IoSession session,Object message){
-			logger.info("messageReceived  from server message is :"+message.toString());
+			logger.info("messageReceived is :"+message.toString());
 			session.close(true);
 		}
 		// 当信息已经传送给客户端后触发此方法.
-	    @Override
 	    public void messageSent(IoSession session, Object message) {
-	    	logger.info("信息已经传送给服务端   message is :"+message);	 
+	    	logger.info("messageSent is :"+message);	 
 	    }
 		
 		
