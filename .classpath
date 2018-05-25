@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="MinaClientV1/src"/>
+	<classpathentry kind="src" path="MinaServerV1/src"/>
+	<classpathentry kind="lib" path="MinaClientV1/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="MinaClientV1/lib/logback-classic-1.0.7.jar"/>
+	<classpathentry kind="lib" path="MinaClientV1/lib/logback-core-1.0.7.jar"/>
+	<classpathentry kind="lib" path="MinaClientV1/lib/mina-core-2.0.7.jar"/>
+	<classpathentry kind="lib" path="MinaClientV1/lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="MinaClientV1/MinaClientV1_fat.jar"/>
+	<classpathentry kind="lib" path="MinaServerV1/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="MinaServerV1/lib/logback-classic-1.1.3.jar"/>
+	<classpathentry kind="lib" path="MinaServerV1/lib/logback-core-1.1.3.jar"/>
+	<classpathentry kind="lib" path="MinaServerV1/lib/mina-core-2.0.7.jar"/>
+	<classpathentry kind="lib" path="MinaServerV1/lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="MinaServerV1/MinaServerV1_fat.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="MinaClientV1/bin"/>
+</classpath>

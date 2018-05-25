@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri May 25 18:27:01 CST 2018
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=true
+jarname=MinaUdpClientV1_fat.jar
+manifest.mergeall=true
+manifest.mainclass=com.leo.Mina.UdpClient1.UdpClient
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=
